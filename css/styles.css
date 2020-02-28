@@ -119,3 +119,9 @@ img.skill-row-1 {
     border-radius: 0;
     margin-right: 150px;
 }
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 25px;
+    }
+}
