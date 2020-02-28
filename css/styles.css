@@ -123,6 +123,7 @@ img.skill-row-1 {
 @media only screen and (min-width: 700px) {
     .skill-row {
         font-size: 27px;
+        width: 60%;
     }
 
     .footer-note {
