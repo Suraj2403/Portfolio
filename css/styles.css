@@ -120,6 +120,11 @@ img.skill-row-1 {
     margin-right: 150px;
 }
 
+.profile img {
+    width: 25%;
+    border-radius: 20rem;
+}
+
 @media only screen and (min-width: 700px) {
     .skill-row {
         font-size: 27px;
