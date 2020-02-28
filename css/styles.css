@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif, Helvetica, Arial;
+    color: #40514E;
+}
+
+h1 {
+    margin-top: 50px auto 0 auto;
+    font-size: 3.625rem;
+}
+
+h3,
+a {
+    color: #11999E;
+}
+
+p {
+    font-weight: normal;
+    line-height: 2;
+}
+
+img {
+    width: 20%;
+    border-radius: 9.375rem;
+}
+
+.top-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #E4F9F5;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skills {}
+
+.chili-image {
+    margin: 0 auto;
+    margin-right: 30px;
+    text-align: center;
+    width: 25%;
+    border-radius: 0;
+    float: left;
+}
+
+.code-image {
+    margin: 0 auto;
+    margin-left: 30px;
+    text-align: left;
+    width: 25%;
+    border-radius: 0;
+    float: right;
+}
+
+.middle-container {
+    margin-top: 1rem;
+}
+
+.bottom-container {
+    height: 100px;
+    background-color: #66BFBF;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.footer-note {
+    color: #EAF6F6;
+    padding-top: 40px;
+}
+
+hr {
+    border: dotted #EAF6F6 10px;
+    width: 20%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+.btn {
+    margin: 20px;
+    font-family: arial;
+    color: #14396A !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #3B99A3;
+    background: #11CDD4;
+    background: linear-gradient(top, #1FCBEE, #40CFCA);
+    background: -ms-linear-gradient(top, #1FCBEE, #40CFCA);
+    background: -webkit-gradient(linear, left top, left bottom, from(#1FCBEE), to(#40CFCA));
+    background: -moz-linear-gradient(top, #1FCBEE, #40CFCA);
+}
+
+.btn:hover {
+    color: #6A6767 !important;
+    background: #CF622B;
+    background: linear-gradient(top, #468CCF, #63B8EE);
+    background: -ms-linear-gradient(top, #468CCF, #63B8EE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+    background: -moz-linear-gradient(top, #468CCF, #63B8EE);
+}
+
+img.skill-row-1 {
+    border-radius: 0;
+    margin-left: 350px;
+}
+
+.skill-row-2 {
+    border-radius: 0;
+    margin-right: 150px;
+}
