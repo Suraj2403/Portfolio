@@ -159,7 +159,23 @@ hr {
   width: 60px;
 }
 
-@media only screen and (min-width: 700px) {
+@media screen and (max-width: 480px) {
+  .skill-row {
+    font-size: 25px;
+    width: 80%;
+  }
+
+  .contact-me {
+    font-size: 2rem;
+  }
+
+  .footer-note {
+    font-size: 1.2rem;
+  }
+}
+
+/* For larger screens (tablets, desktops) */
+@media screen and (min-width: 700px) {
   .profile img {
     width: 15%;
   }
