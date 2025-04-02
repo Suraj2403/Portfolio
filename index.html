@@ -1,53 +1,95 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
     <title>Suraj Galande</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
-        rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="top-container">
-        <img class="skill-row-1"  src="images/cloud.png" alt="">
-        <h1> I'm Suraj Galande</h1>
-        <p>A Web Developer</p>
-        <img class="skill-row-2" src="images/cloud.png" alt="">
+      <img class="cloud-image-1" src="images/cloud.png" alt="" />
+      <h1>I'm Suraj Galande</h1>
+      <p>A Full Stack Developer</p>
+      <img class="cloud-image-2" src="images/cloud.png" alt="" />
     </div>
     <div class="middle-container">
-        <div class="profile">
-            <img src="images/profile.jpg" alt="Profile Picture">
-            <h2>Hello!</h2>
-            <p>I am an Angular Developer.
-            </p>
+      <div class="profile">
+        <img src="images/profile.jpg" alt="Profile Picture" />
+        <h2>Hello!</h2>
+        <p>
+          I am a versatile Full Stack Developer with hands-on experience in
+          building scalable and efficient web applications using Angular, React,
+          and cutting-edge SAP technologies. My expertise spans across SAP BTP,
+          SAP CAPM, SAP HANA, SAP BPA, and SAP Analytics Cloud, enabling me to
+          deliver integrated solutions that drive business transformation.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h1>My Skills</h1>
+        <div class="skill-row">
+          <h3>Design and Development</h3>
+          <img class="chili-image" src="images/chilli.png" alt="" />
+          <p>
+            With over 9 years of experience in software development, I
+            specialize in full stack development, combining both front-end and
+            back-end expertise (React, Angular and Angular 2+, Node.js, SQL). My
+            expertise also extends to a range of SAP technologies, including SAP
+            BTP, SAP CAPM, SAP HANA, SAP BPA, and SAP Analytics Cloud, allowing
+            me to integrate and optimize complex business processes with
+            cutting-edge solutions.
+          </p>
         </div>
-        <hr>
-        <div class="skills">
-            <h2>My Skills</h2>
-            <div class="skill-row">
-                <img class="chili-image" src="images/chilli.png" alt="">
-                <h3>Design and Development</h3>
-                <p>I have experince of 4+ years in angularjs and angular 2+ along with SAP HANA.</p>
-            </div>
-            <div class="skill-row">
-                <img class="code-image" src="images/code.png" alt="">
-                <h3>Editors</h3>
-                <p>I have worked on SAP HANA Web IDE, Workbench Development Tools, Visual Studio Code.</p>
-            </div>
+        <div class="skill-row">
+          <h3>Editors</h3>
+          <img class="code-image" src="images/code.png" alt="" />
+          <p>
+            I have experience working with SAP tools including SAP HANA Web IDE,
+            Workbench Development Tools, Visual Studio Code, SAP Business
+            Application Studio (BAS), and SAP BTP Cockpit for developing,
+            deploying, and managing applications within the SAP ecosystem.
+          </p>
         </div>
-        <hr>
-        <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3><a href="mailto:galandesuraj3103@gmail.com">Email Me</a></h3>           
-        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h3 style="font-size: 1.5rem;"><a href="mailto:galandesuraj3103@gmail.com">&#9993;</a></h3>
+        <h3>
+          <a href="https://www.linkedin.com/in/suraj-galande-bb0391102"
+            ><img
+              class="linkedin-image"
+              src="./images/linkedin.svg"
+              alt="LinkedIn Icon"
+          /></a>
+        </h3>
+        <h3>
+          <a href="https://www.credly.com/users/suraj-galande.ec984d8f"
+            ><img
+              class="credly-image"
+              src="./images/credly.svg"
+              alt="Credly Icon"
+          /></a>
+        </h3>
+      </div>
     </div>
     <div class="bottom-container">
-        <p class="footer-note">© Copyright 2020 Suraj Galande.</p>
+      <p class="footer-note">
+        © Copyright <span id="current-year"></span> Suraj Galande
+      </p>
     </div>
 
-</body>
+    <script>
+      const yearSpan = document.getElementById("current-year");
 
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
 </html>
